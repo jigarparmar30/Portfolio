@@ -201,6 +201,7 @@ z-index: 100;
 font-size: 15px;
 margin-bottom: 30px;
 color: var(--text-color-second);
+text-align: justify;
 }
 .featured-text-btn {
     display: flex;
@@ -523,8 +524,8 @@ background: var(--second-color);
     padding: 0;
 }
 .image, .image img {
-    width: 320px;
-    height: 320px;
+    width: 205px;
+    height: 200px;
 }
 
 }
@@ -578,15 +579,18 @@ background: var(--second-color);
         margin-top: 2em;
     }
     .featured-image {
+         position: relative;
+       right: 80px;
+        bottom: 20px;
         order: 1;
         justify-content: center;
-        min-height: 80px;
-        width: 152%;
-        margin-top: 85px;
+        min-height: 230px;
+        width: 90%;
+        margin-top: 130px;
     }
     .image .image img {
-        width: 90px;
-        height: 90px;
+            width: 250px;
+        height: 269px;
     }
     .row {
         display: flex;
